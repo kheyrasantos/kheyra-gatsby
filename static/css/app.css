@@ -3,6 +3,8 @@ body {
   font-size: 14px;
   color: #5a6a7f;
   transition: all 0.3s;
+  opacity: 1;
+  overflow-x: hidden;
  }
 
 h1, h2, h3, h4, h5, h6 {
