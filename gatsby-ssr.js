@@ -1,5 +1,6 @@
 exports.onRenderBody = ({ setBodyAttributes }) => {
     setBodyAttributes({
-        className: 'no-js'
+        className: 'no-js',
+        opacity: '0'
       });
   };
