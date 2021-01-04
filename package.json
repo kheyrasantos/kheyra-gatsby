@@ -33,9 +33,11 @@
     "gatsby-plugin-twitter": "^2.3.9",
     "gatsby-source-filesystem": "^2.3.14",
     "gatsby-transformer-sharp": "^2.5.7",
+    "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-foundation": "^0.9.6",
     "react-helmet": "^6.1.0",
     "react-slick": "^0.26.1",
     "slick-carousel": "^1.8.1"

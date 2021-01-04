@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import '../components/loader.js';
 
 const Footer = () => {
 
@@ -38,12 +39,12 @@ const Footer = () => {
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous" async></script> */}
-        <script src="js/vendor/jquery.js"></script>
+        {/* <script src="js/vendor/jquery.js"></script> */}
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/vendor/what-input.js"></script>
         <script src="js/vendor/foundation.js"></script>
         <script src="js/wow.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9" async></script>
         <script src="js/app.js?v=1.0.1"></script>
         </Helmet>
         </>

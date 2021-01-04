@@ -5,10 +5,12 @@ import Expertise from '../components/Expertise.js';
 import Professional from '../components/Professional.js';
 import Personal from '../components/Personal.js';
 
-
 export default() => {
     return(
-        <Layout>
+        <Layout
+        style={{
+            opacity: '0'
+          }}>
             <About />
             <Expertise />
             <Professional />

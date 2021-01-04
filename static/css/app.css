@@ -1,7 +1,10 @@
 body {
   font-family: "droid-sans", sans-serif;
   font-size: 14px;
-  color: #5a6a7f; }
+  color: #5a6a7f;
+  opacity: 1 !important;
+  transition: all 0.3s;
+ }
 
 h1, h2, h3, h4, h5, h6 {
   color: #47596c; }
