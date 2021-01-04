@@ -34,10 +34,11 @@ const Footer = () => {
         <button className="back-to-top transition"><i className="fas fa-chevron-up"></i></button>
 
         <Helmet>
-        <script
+        {/* <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous" async></script> */}
+        <script src="js/vendor/jquery.js"></script>
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/vendor/what-input.js"></script>
         <script src="js/vendor/foundation.js"></script>
