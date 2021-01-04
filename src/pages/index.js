@@ -7,10 +7,7 @@ import Personal from '../components/Personal.js';
 
 export default() => {
     return(
-        <Layout
-        style={{
-            opacity: '0'
-          }}>
+        <Layout>
             <About />
             <Expertise />
             <Professional />
